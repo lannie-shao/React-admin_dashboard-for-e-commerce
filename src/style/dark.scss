@@ -1,0 +1,93 @@
+.app.dark{
+    background-color: #222;
+    color:grey;
+
+    .chartGrid{
+        stroke:rgba(228, 228, 228, 0.219);
+    }
+
+    .table{
+        background-color: #222;
+        .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+            background-color:#222 ;
+        }
+        .tableCell{
+            color:grey;
+        }
+        .css-1ex1afd-MuiTableCell-root{
+            color:grey;
+        }
+    }
+    .navbar{
+        color:grey;
+        border-color: #666;
+        .search{
+            border-color: #666;
+        }
+    }
+
+    .sidebar{
+        .logo {
+            color: #999;
+          }
+          hr{
+            border:0.5px solid #666;
+          }
+          border-right: 0.5px solid #666;
+          ul{
+            li{
+                &:hover{
+                    background-color: rgba(96, 93, 93, 0.635);
+                    color: #333;
+                }
+
+                .icon{
+                    color:grey;
+                }
+            }
+          }
+    }
+
+    .datatable{
+        .css-rtrcn9-MuiTablePagination-root,
+            .css-1e2bxag-MuiDataGrid-root,
+            .status,.title{
+            color:grey;
+        }
+
+        .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell{
+            border-bottom: none;
+        }
+        button{
+            background-color: transparent;
+            border:none;
+            color:grey;
+        }
+        .css-17jjc08-MuiDataGrid-footerContainer{
+            min-height: 60px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .chart{
+        .grid{
+            stroke:rgb(86, 86, 86);     
+        }
+    }
+
+    .table{
+        .css-1ex1afd-MuiTableCell-root{
+            border-bottom: 0.5px solid rgb(150, 150, 150);;
+        }
+    }
+    .new{
+        form{
+            input{
+                background-color: transparent;
+                border:none;
+                border-bottom: 1px solid #666;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,57 @@
+.datatable{
+    height: 550px;
+    padding: 20px;
+
+    a{
+        text-decoration: none;
+    }
+    
+    .title{
+        border: 1px solid green;
+        width:150px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        color:green;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .cellWithImage{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .status{
+        padding:5px;
+        border-radius: 5px;
+        &.active{
+            background-color:rgba(121, 221, 121, 0.249) ;
+            color:green;
+        }
+        &.passive{
+            background-color:rgba(242, 166, 154, 0.249) ;
+            color:red;
+        }
+        &.pending{
+            background-color:rgba(221, 213, 121, 0.249) ;
+            color:rgb(206, 206, 50);
+        }
+    }
+
+    button{
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            &.view{
+                border:0.5px solid blue;
+                color:rgb(68, 68, 231);           
+            }
+            &.delete{
+                border:0.5px solid red;
+                color:rgb(244, 65, 65);           
+            }
+    }
+    
+}
